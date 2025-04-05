@@ -1,0 +1,90 @@
+body {
+  background-color: lemonchiffon;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: darkgreen;
+}
+
+#book-count-form,
+#book-form,
+#book-table {
+  background-color: white;
+  border: 2px solid lightgray;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+button {
+  background-color: salmon;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: tomato;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: seagreen;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  background-color: white;
+}
+
+td input {
+  width: 90%;
+  padding: 5px;
+}
+
+.action-buttons button {
+  margin: 2px;
+  padding: 5px 10px;
+}
+
+.action-buttons .edit {
+  background-color: orange;
+}
+
+.action-buttons .delete {
+  background-color: crimson;
+}
+
+.action-buttons .save {
+  background-color: green;
+}
+
+.action-buttons .cancel {
+  background-color: gray;
+}

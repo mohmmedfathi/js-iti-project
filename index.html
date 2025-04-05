@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="book-count-form">
+      <h1>Book Library</h1>
+      <label for="book-count">How many books would you like to enter?</label>
+      <input
+        type="number"
+        id="book-count"
+        placeholder="Enter number of books"
+        min="1"
+      />
+      <button id="ok-btn">OK</button>
+    </div>
+
+    <div id="book-form" style="display: none">
+      <h2>Enter Book Information</h2>
+      <form id="book-entry-form"></form>
+      <button id="submit-books">Submit Books</button>
+    </div>
+
+    <div id="book-table" style="display: none">
+      <h2>Book Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Author Name</th>
+            <th>Author Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="book-table-body"></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
